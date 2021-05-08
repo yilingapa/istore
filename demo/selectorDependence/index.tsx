@@ -4,7 +4,7 @@ import { ZooStore } from './store'
 
 export const Zoo = memo(function Zoo() {
   const [type, setType] = useState<'animal' | 'bird'>('animal')
-
+  console.log('render selectorDependence');
   const toggle = useCallback(() => {
     setType(s => s === 'animal' ? 'bird' : 'animal')
   }, [])
@@ -21,7 +21,6 @@ export const CountNum = memo(({
 }: PropsWithChildren<{
   type: 'animal' | 'bird'
 }>) => {
-  console.log('render selectorDependence');
   const [state, action] = useStore(ZooStore, {
     selector: s => {
       return {
