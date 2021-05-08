@@ -27,7 +27,7 @@ The code below is a simple counter.
 
 ```
 //store.ts
-import { createStore, setStateFunc } from '../../script/index'
+import { createStore, setStateFunc } from '@yilingapa/istore'
 
 type State = {
   num: number
