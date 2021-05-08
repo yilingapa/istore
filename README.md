@@ -3,7 +3,7 @@
 A light state container for React apps.
 
 
-Check [document here](https://873297873.gitbook.io/github/).
+Check [document here](https://yilingapa.gitbook.io/github/).
 
 Live [demo here](https://stackblitz.com/edit/istore-demo?file=index.tsx).
 
