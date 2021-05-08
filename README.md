@@ -80,10 +80,11 @@ export function Counter() {
   */
   const [state, action] = useStore(CounterStore)
   const add = useCallback(() => {
-    // same as action.add()
-    const res = action.setState(state => {
-      state.num += 1
-    })
+    const res =  action.add()
+    // same as
+    // action.setState(state => {
+    //   state.num += 1
+    // })
     console.log(res)
     //log 'I am a return value'
   }, [])

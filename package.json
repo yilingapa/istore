@@ -1,6 +1,6 @@
 {
   "name": "@yilingapa/istore",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "a light state container for React apps",
   "main": "dist/index.js",
   "module": "esm/index.js",
