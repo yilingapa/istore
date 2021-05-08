@@ -1,0 +1,9 @@
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal{
+  border:  1px solid blue;
+  padding: 20px;
+}
